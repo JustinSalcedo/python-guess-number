@@ -23,7 +23,7 @@ def inputValidInteger(inputMsg) -> int:
         try:
             userInput = int(userInput)
         except ValueError:
-            print("Your input is not a number")
+            print("Your input is not an integer number")
             userInput = input(inputMsg)
         else:
             isValidNumber = True
